@@ -1,0 +1,49 @@
+.modal{
+    background-color: rgb(242, 233, 250);
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #835aFD;
+    border-radius: 10px;
+    color: #686868;
+    font-weight: 100;
+    padding: 30px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    h2{
+        text-align: center;
+
+    }
+    .modal-buttons{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        button{
+            padding: 13px;
+            border-radius: 5px;
+            border: none;
+            font-size: 1.3rem;
+            transition: filter 0.3s;
+            cursor: pointer;
+
+        }
+        button:hover{
+            filter: brightness(.8);
+        }
+        .btn-yes{
+            background-color: #835aFD;
+            color: white;
+        }
+        .btn-no{
+            background-color: #e2e2e2;
+            color: #737388;
+        }
+    }
+
+}
